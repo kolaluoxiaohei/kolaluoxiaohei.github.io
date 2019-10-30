@@ -1,8 +1,13 @@
 <html>
   <head>
-    <title>Hello</title>
+    <title>github入门</title>
     <script>
-      alert(1);
+      function clickMe(){
+        alert("点我干啥");
+      }
+      function goHome(){
+        window.location.href = "./home.html";
+      }
     </script>
   </head>
   <body>
@@ -13,5 +18,7 @@
       <li>李四</li>
       <li>王五</li>
     </ul>
+    <button click="clickMe()">点我</button>
+    <button click="goHome()">home页</button>
   </body>
 </html>
